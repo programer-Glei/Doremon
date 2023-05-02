@@ -24,9 +24,20 @@ body {
 }
 
 .head {
+  position: relative;
   width: 450px;
   height: 420px;
   background-color: #00a2ff;
   border-radius: 50%;
+}
+
+.head .face {
+  position: absolute;
+  width: 380px;
+  height: 330px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 84px;
+  left: 30px;
 }
 /*# sourceMappingURL=estilo.css.map */
