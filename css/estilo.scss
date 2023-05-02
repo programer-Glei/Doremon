@@ -40,6 +40,16 @@ body{
             border-radius: 50%;
             top: -60px;
             left: 85px;
+
+            .pupil-1{
+                position: absolute;
+                width: 40px;
+                height: 55px;
+                border-radius: 50%;
+                background-color: #0e0e0e;
+                top: 30px;
+                left: 60px;
+            }
         }
 
         .eye-2{
@@ -51,6 +61,26 @@ body{
             border-radius: 50%;
             top: -60px;
             left: 190px;
+
+            .pupil-2{
+                position: absolute;
+                width: 40px;
+                height: 55px;
+                border-radius: 50%;
+                background-color: #0e0e0e;
+                top: 30px;
+                left: 5px;
+            }
+        }
+
+        .nose{
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            background-color: #c90000;
+            top: 36px;
+            left: 165px;
         }
     }
 }

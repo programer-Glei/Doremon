@@ -52,6 +52,16 @@ body {
   left: 85px;
 }
 
+.head .face .eye-1 .pupil-1 {
+  position: absolute;
+  width: 40px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #0e0e0e;
+  top: 30px;
+  left: 60px;
+}
+
 .head .face .eye-2 {
   position: absolute;
   width: 110px;
@@ -61,5 +71,25 @@ body {
   border-radius: 50%;
   top: -60px;
   left: 190px;
+}
+
+.head .face .eye-2 .pupil-2 {
+  position: absolute;
+  width: 40px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #0e0e0e;
+  top: 30px;
+  left: 5px;
+}
+
+.head .face .nose {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #c90000;
+  top: 36px;
+  left: 165px;
 }
 /*# sourceMappingURL=estilo.css.map */
