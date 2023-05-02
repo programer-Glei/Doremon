@@ -40,4 +40,26 @@ body {
   top: 84px;
   left: 30px;
 }
+
+.head .face .eye-1 {
+  position: absolute;
+  width: 110px;
+  height: 125px;
+  background-color: #fff;
+  border: 1px solid #9d9d9d;
+  border-radius: 50%;
+  top: -60px;
+  left: 85px;
+}
+
+.head .face .eye-2 {
+  position: absolute;
+  width: 110px;
+  height: 125px;
+  background-color: #fff;
+  border: 1px solid #9d9d9d;
+  border-radius: 50%;
+  top: -60px;
+  left: 190px;
+}
 /*# sourceMappingURL=estilo.css.map */
