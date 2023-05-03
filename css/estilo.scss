@@ -91,6 +91,18 @@ body{
             left: 193px;
         }
 
+        .whisker-right-1{
+            position: absolute;
+            width: 130px;
+            height: 100px;
+            border: 2px solid #000;
+            border-color: #000 transparent transparent;
+            top: 100px;
+            left: 20px;
+            border-radius: 100%/10px 40px 0 0;
+            transform: rotate(10deg);
+        }
+
         .mouth{
             position: absolute;
             width: 75px;
