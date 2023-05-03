@@ -83,14 +83,34 @@ body{
             left: 165px;
         }
 
+        .mouth-line{
+            position: absolute;
+            height: 120px;
+            border-left: 2px solid #0e0e0e;
+            top: 91px;
+            left: 193px;
+        }
+
         .mouth{
             position: absolute;
             width: 75px;
             height: 90px;
             border-radius: 100px 100px 90px 90px;
+            border: 2px solid #c13d3d;
             background-color: #c13d3d;
             top: 210px;
-            left: 165px;
+            left: 153px;
+            overflow: hidden;
+
+            .tounge{
+                position: absolute;
+                width: 100px;
+                height: 90px;
+                border-radius: 50%;
+                background-color: #ff4e4e;
+                top: 20px;
+                left: 5px;
+            }
         }
     }
 }
