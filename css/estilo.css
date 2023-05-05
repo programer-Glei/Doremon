@@ -29,6 +29,8 @@ body {
   height: 420px;
   background-color: #00a2ff;
   border-radius: 50%;
+  -webkit-box-shadow: inset -10px -10px 5px #036fad;
+          box-shadow: inset -10px -10px 5px #036fad;
 }
 
 .head .face {
@@ -50,6 +52,8 @@ body {
   border-radius: 50%;
   top: -60px;
   left: 85px;
+  -webkit-box-shadow: inset -3px -10px 5px #9d9d9d;
+          box-shadow: inset -3px -10px 5px #9d9d9d;
 }
 
 .head .face .eye-1 .pupil-1 {
@@ -60,6 +64,8 @@ body {
   background-color: #0e0e0e;
   top: 30px;
   left: 60px;
+  -webkit-box-shadow: inset -3px -10px 5px #2a2a2a;
+          box-shadow: inset -3px -10px 5px #2a2a2a;
 }
 
 .head .face .eye-2 {
@@ -71,6 +77,8 @@ body {
   border-radius: 50%;
   top: -60px;
   left: 190px;
+  -webkit-box-shadow: inset -3px -10px 5px #9d9d9d;
+          box-shadow: inset -3px -10px 5px #9d9d9d;
 }
 
 .head .face .eye-2 .pupil-2 {
@@ -81,6 +89,8 @@ body {
   background-color: #0e0e0e;
   top: 30px;
   left: 5px;
+  -webkit-box-shadow: inset -3px -10px 5px #2a2a2a;
+          box-shadow: inset -3px -10px 5px #2a2a2a;
 }
 
 .head .face .nose {
@@ -91,6 +101,8 @@ body {
   background-color: #c90000;
   top: 36px;
   left: 165px;
+  -webkit-box-shadow: inset -10px -10px 5px #8f0000;
+          box-shadow: inset -10px -10px 5px #8f0000;
 }
 
 .head .face .mouth-line {
@@ -161,9 +173,22 @@ body {
   border-color: #000 transparent transparent transparent;
   top: 140px;
   left: 230px;
-  border-radius: 100%/30px 10px 0 0;
+  border-radius: 100%/30px 20px 0 0;
   -webkit-transform: rotate(-2deg);
           transform: rotate(-2deg);
+}
+
+.head .face .whisker-left-3 {
+  position: absolute;
+  width: 130px;
+  height: 100px;
+  border-top: 2px solid #000;
+  border-color: #000 transparent transparent transparent;
+  top: 180px;
+  left: 230px;
+  border-radius: 100%/30px 20px 0 0;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
 }
 
 .head .face .mouth {
